@@ -39,3 +39,5 @@ Ako nakonfigurovať automatickú aktualizáciu verziu docker obrazu v klastri sm
 Preto budeme zmenu verzie docker obrazu robiť **manuálne**. Po vyrobení verzie docker obrazu, ktora obsahuje novú funkcionalitu a je dostatočne pretestovaná na lokálnom klastri, zmente verziu v súbore `deployment.yaml` svojho komponentu v spoločnom repozitári `Apps repo` na gitlabe.
 
 Po komite aktualizovaného súboru, sa Flux postará o jeho nasadenie do klastra.Overte to po pár minútach na stránke aplikácie https://wac-2023.germanywestcentral.cloudapp.azure.com/ui/. 
+
+test
