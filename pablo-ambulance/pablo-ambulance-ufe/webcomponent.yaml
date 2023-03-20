@@ -7,7 +7,7 @@ spec:
   navigation:
     - element: pablo-ambulance-wl-app
       path: pablo-ambulance-wl            
-      title: Zoznam čakajúcich 
+      title: Zoznam čakajúcich Pablo
       details: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii     
       attributes:                   
         - name: base-path
