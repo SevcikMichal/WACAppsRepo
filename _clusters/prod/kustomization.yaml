@@ -6,6 +6,7 @@ resources:
   - ../../pc_ambulance
   - ../../md_ambulance
   - ../../mar-ku-ambulance
+  - ../../jm-lm-ambulance
   - ../../xholubov_ambulance
   - ../../adp-team
 
