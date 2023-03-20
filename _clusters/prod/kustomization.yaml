@@ -9,5 +9,5 @@ resources:
   - ../../xholubov_ambulance
   - ../../adp-team
   - ../../ll-ambulance
-  
+
 namespace: wac-hospital
