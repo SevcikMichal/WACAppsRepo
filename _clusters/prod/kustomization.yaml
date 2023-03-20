@@ -6,7 +6,6 @@ resources:
   - ../../pc_ambulance
   - ../../mf-ambulance
   - ../../md_ambulance
-  - ../../hoka-ambulance
   - ../../mar-ku-ambulance
   - ../../jm-lm-ambulance
   - ../../xholubov_ambulance
