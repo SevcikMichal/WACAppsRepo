@@ -8,5 +8,6 @@ resources:
   - ../../mar-ku-ambulance
   - ../../xholubov_ambulance
   - ../../adp-team
+  - ../../m-nem-ambulance
 
 namespace: wac-hospital
