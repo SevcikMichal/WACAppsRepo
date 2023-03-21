@@ -19,5 +19,6 @@ resources:
   - ../../ij-ambulance
   - ../../pirky
 #  - ../../ll-ambulance
+  - ../../mkukucka-ambulance
 
 namespace: wac-hospital
