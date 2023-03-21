@@ -15,6 +15,7 @@ resources:
   - ../../adp-team
   - ../../jj-ambulance
   - ../../m-nem-ambulance
+  - ../../mb-ambulance
 #  - ../../janec-ambulance  
   - ../../ij-ambulance
   - ../../pirky
