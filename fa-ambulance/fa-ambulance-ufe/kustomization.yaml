@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - deployment.yaml
 - service.yaml
-- ingress.yaml
+- webcomponent.yaml
 commonLabels:
-  app: m-nem-ambulance-webapi
+  app: fa-ambulance-ufe
