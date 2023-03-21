@@ -19,5 +19,6 @@ resources:
   - ../../ij-ambulance
   - ../../pirky
 #  - ../../ll-ambulance
+  - ../../stesch-ambulance
 
 namespace: wac-hospital
