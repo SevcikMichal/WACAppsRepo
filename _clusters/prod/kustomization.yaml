@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
   - ../../_msevcik_demo
   - ../../ab-ambulance
+  - ../../ac-ambulance
   - ../../adp-team
   - ../../fa-ambulance
   - ../../fchalas-ambulance
@@ -32,5 +33,5 @@ resources:
   - ../../vf_ambulance
   - ../../xholubov_ambulance
   - ../../xvykopal-ambulance
-  
+
 namespace: wac-hospital
