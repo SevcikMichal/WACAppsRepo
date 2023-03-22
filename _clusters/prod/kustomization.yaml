@@ -31,6 +31,7 @@ resources:
   - ../../stesch-ambulance
   - ../../vf_ambulance
   - ../../xholubov_ambulance
+  - ../../hhh-team
   - ../../xvykopal-ambulance
-  
+
 namespace: wac-hospital
