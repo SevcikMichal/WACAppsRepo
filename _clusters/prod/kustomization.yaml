@@ -19,6 +19,7 @@ resources:
 #  - ../../janec-ambulance
   - ../../ij-ambulance
   - ../../pirky
+  - ../../zy-ambulance
 #  - ../../ll-ambulance
 
 namespace: wac-hospital
