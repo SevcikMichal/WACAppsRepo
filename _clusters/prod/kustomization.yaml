@@ -32,5 +32,6 @@ resources:
   - ../../vf_ambulance
   - ../../xholubov_ambulance
   - ../../xvykopal-ambulance
+  - ../../team09-form-app
   
 namespace: wac-hospital
