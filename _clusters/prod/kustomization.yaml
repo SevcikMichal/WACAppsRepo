@@ -5,6 +5,7 @@ resources:
   - ../../_msevcik_demo
   - ../../ab-ambulance
   - ../../adp-team
+  - ../../bado-ambulance
   - ../../fa-ambulance
   - ../../fchalas-ambulance
   - ../../hoka-ambulance
