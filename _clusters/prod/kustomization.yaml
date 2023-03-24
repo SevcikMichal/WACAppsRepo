@@ -6,7 +6,6 @@ resources:
   - ../../ab-ambulance
   - ../../adp-team
   - ../../fa-ambulance
-  - ../../pprerko-team
   - ../../fchalas-ambulance
   - ../../hoka-ambulance
   - ../../ij-ambulance
@@ -28,6 +27,7 @@ resources:
   - ../../peter-plevko
   - ../../pirky
   - ../../pkollarova-ambulance
+  - ../../pprerko-team
   - ../../rericha_ambulance
   - ../../stesch-ambulance
   - ../../vf_ambulance
