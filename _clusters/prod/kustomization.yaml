@@ -3,24 +3,35 @@ kind: Kustomization
 
 resources:
   - ../../_msevcik_demo
-  - ../../fa-ambulance
-#  - ../../pablo_ambulance
-  - ../../mf-ambulance
-  - ../../peter-plevko
-  - ../../md_ambulance
-  - ../../mar-ku-ambulance
-  - ../../jm-lm-ambulance
-  - ../../xholubov_ambulance
-  - ../../jb_ambulance
-  - ../../hoka-ambulance
+  - ../../ab-ambulance
   - ../../adp-team
-  - ../../jj-ambulance
-  - ../../m-nem-ambulance
-#  - ../../janec-ambulance
+  - ../../fa-ambulance
+  - ../../fchalas-ambulance
+  - ../../hoka-ambulance
   - ../../ij-ambulance
-  - ../../pirky
+#  - ../../janec-ambulance
+  - ../../jb_ambulance
+  - ../../jj-ambulance
+  - ../../jm-lm-ambulance
 #  - ../../ll-ambulance
-  - ../../pkollarova-ambulance
+  - ../../m-nem-ambulance
+  - ../../mar-ku-ambulance
+  - ../../mb-ambulance
+  - ../../md_ambulance
+  - ../../mdurovic-ambulance
+  - ../../mf-ambulance
+  - ../../mjankuliak-ambulance
+  - ../../mkrchnavy-ambulance
+  - ../../mkukucka-ambulance
+  - ../../pablo-ambulance
   - ../../pc-ambulance
-
+  - ../../peter-plevko
+  - ../../pirky
+  - ../../pkollarova-ambulance
+  - ../../rericha_ambulance
+  - ../../stesch-ambulance
+  - ../../vf_ambulance
+  - ../../xholubov_ambulance
+  - ../../xvykopal-ambulance
+  
 namespace: wac-hospital
