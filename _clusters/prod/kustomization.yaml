@@ -4,19 +4,24 @@ kind: Kustomization
 resources:
   - ../../_msevcik_demo
   - ../../ab-ambulance
+  - ../../ac-ambulance
   - ../../adp-team
+  - ../../af-ambulance
   - ../../bado-ambulance
   - ../../fa-ambulance
   - ../../fchalas-ambulance
+  - ../../hhh-team
   - ../../hoka-ambulance
   - ../../ij-ambulance
 #  - ../../janec-ambulance
   - ../../jb_ambulance
   - ../../jj-ambulance
   - ../../jm-lm-ambulance
+  - ../../kali-team
 #  - ../../ll-ambulance
   - ../../m-nem-ambulance
   - ../../mar-ku-ambulance
+  - ../../mb-ambulance
   - ../../md_ambulance
   - ../../mdurovic-ambulance
   - ../../mf-ambulance
@@ -33,5 +38,5 @@ resources:
   - ../../vf_ambulance
   - ../../xholubov_ambulance
   - ../../xvykopal-ambulance
-  
+
 namespace: wac-hospital
