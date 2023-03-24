@@ -42,5 +42,6 @@ resources:
   - ../../xholubov_ambulance
   - ../../xvykopal-ambulance
   - ../../zy-ambulance
+  - ../../fp-sz-team
 
 namespace: wac-hospital
