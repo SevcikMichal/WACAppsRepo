@@ -21,7 +21,9 @@ resources:
   - ../../pirky
 #  - ../../ll-ambulance
   - ../../mkukucka-ambulance
+  - ../../mkukucka-covid19-testing-administration
   - ../../pkollarova-ambulance
   - ../../pc-ambulance
+  
 
 namespace: wac-hospital
