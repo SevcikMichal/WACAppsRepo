@@ -32,6 +32,6 @@ resources:
   - ../../vf_ambulance
   - ../../xholubov_ambulance
   - ../../xvykopal-ambulance
-   - ../../fp-sz-team
+  - ../../fp-sz-team
   
 namespace: wac-hospital
