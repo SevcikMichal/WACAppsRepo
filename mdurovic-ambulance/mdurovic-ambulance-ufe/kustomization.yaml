@@ -1,7 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- ./pablo-ambulance-ufe
-# - ./pablo-ambulance-webapi
+  - deployment.yaml
+  - service.yaml
+  - webcomponent.yaml
 commonLabels:
-  app: pablo-ambulance
+  app: mdurovic-ambulance-ufe
