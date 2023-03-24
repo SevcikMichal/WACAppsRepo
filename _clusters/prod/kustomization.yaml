@@ -10,6 +10,7 @@ resources:
   - ../../bado-ambulance
   - ../../fa-ambulance
   - ../../fchalas-ambulance
+  - ../../fp-sz-team
   - ../../hhh-team
   - ../../hoka-ambulance
   - ../../ij-ambulance
@@ -30,6 +31,7 @@ resources:
   - ../../mkukucka-ambulance
   - ../../pablo-ambulance
   - ../../pc-ambulance
+  - ../../xkollarovap-project
   - ../../peter-plevko
   - ../../pirky
   - ../../pkollarova-ambulance
