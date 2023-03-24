@@ -7,7 +7,7 @@ spec:
   navigation:
     - element: bamat-ambulance-wl-list
       path: bamat-ambulance-wl            
-      title: Zoznam čakajúcich 
+      title: Zoznam čakajúcich Bamat
       details: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii     
       attributes:                   
         - name: base-path
