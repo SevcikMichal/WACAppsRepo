@@ -7,7 +7,7 @@ spec:
                      # module web komponentu pre tento mikroFE 
                      # - umiestnený v namespace wac-hospital
   navigation:
-    - element: my-component    # element, ktorý bude vložený na stránku 
+    - element:  zhan-chalas-questions-system-app    # element, ktorý bude vložený na stránku 
                                     # pri navigácii na zoznam čakajúcich
       path: questions-system      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Question System Zhan, Chalas      # názov mikro aplikácie
