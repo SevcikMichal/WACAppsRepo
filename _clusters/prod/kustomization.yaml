@@ -44,5 +44,6 @@ resources:
   - ../../xholubov_ambulance
   - ../../xvykopal-ambulance
   - ../../zy-ambulance
+  - ../../bamat-ambulance
 
 namespace: wac-hospital
