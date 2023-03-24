@@ -7,7 +7,7 @@ spec:
   navigation:
     - element: bado-ambulance-wl-app
       path: bado-ambulance-wl            
-      title: Zoznam čakajúcich 
+      title: Zoznam čakajúcich bado
       details: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii     
       attributes:                   
         - name: base-path
