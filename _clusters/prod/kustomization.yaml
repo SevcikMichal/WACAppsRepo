@@ -47,5 +47,6 @@ resources:
   - ../../hhh-team
   - ../../xvykopal-ambulance
   - ../../zy-ambulance
+  - ../../xglemba-project
 
 namespace: wac-hospital
