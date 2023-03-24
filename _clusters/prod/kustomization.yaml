@@ -8,6 +8,7 @@ resources:
   - ../../adp-team
   - ../../af-ambulance
   - ../../bado-ambulance
+  - ../../bamat-ambulance
   - ../../fa-ambulance
   - ../../fchalas-ambulance
   - ../../fp-sz-team
@@ -44,6 +45,5 @@ resources:
   - ../../xholubov_ambulance
   - ../../xvykopal-ambulance
   - ../../zy-ambulance
-  - ../../bamat-ambulance
 
 namespace: wac-hospital
