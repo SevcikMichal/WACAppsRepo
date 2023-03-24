@@ -7,7 +7,7 @@ spec:
   navigation:
     - element: af-ambulance-wl-app
       path: af-ambulance-wl
-      title: Zoznam čakajúcich
+      title: Zoznam čakajúcich AF
       details: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
       attributes:
         - name: base-path
