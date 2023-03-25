@@ -46,5 +46,6 @@ resources:
   - ../../xholubov_ambulance
   - ../../xvykopal-ambulance
   - ../../zy-ambulance
+  - ../../ij-jj-hospital-warehouse
 
 namespace: wac-hospital
