@@ -20,6 +20,7 @@ resources:
   - ../../jb_ambulance
   - ../../jj-ambulance
   - ../../jm-lm-ambulance
+  - ../../hud-nem-team
   - ../../kali-team
   - ../../ll-ambulance
   - ../../m-nem-ambulance
