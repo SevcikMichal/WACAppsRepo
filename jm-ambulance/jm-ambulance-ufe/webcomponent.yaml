@@ -7,7 +7,7 @@ spec:
   navigation:
     - element: jm-ambulance-wl-app
       path: jm-ambulance-wl            
-      title: Zoznam čakajúcich 
+      title: Zoznam čakajúcich JM
       details: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii     
       attributes:                   
         - name: base-path
