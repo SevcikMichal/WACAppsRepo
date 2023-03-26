@@ -1,8 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - deployment.yaml
-  - service.yaml
-  - webcomponent.yaml
+- ./kk-ambulance-ufe
+
 commonLabels:
-  app: tl-team-ufe
+  app: kk-ambulance

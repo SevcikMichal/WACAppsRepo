@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tl-team-ufe-deployment
+  name: kk-ambulance-ufe-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-        pod: tl-team-ufe-label
+        pod: kk-ambulance-ufe-label
   template:
     metadata:
       labels: 
-        pod: tl-team-ufe-label
+        pod: kk-ambulance-ufe-label
     spec:
       containers:
-      - name: tl-team-ufe-container
-        image: timolabsky/ambulance-ufe:0.0.1-26
+      - name: kk-ambulance-ufe-container
+        image: kkuznecov/ambulance-ufe:1.0.0-11
         imagePullPolicy: Always
         ports:
         - name: http
