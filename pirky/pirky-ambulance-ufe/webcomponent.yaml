@@ -7,11 +7,11 @@ spec:
   navigation:
     - element: pirky-ambulance-wl-app
       path: pirky-ambulance-wl
-      title: Zoznam čakajúcich
+      title: Zoznam čakajúcich pirky
       details: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
       attributes:
         - name: base-path
-          value: /pirky-ambulance-wl/
+          value: /ui/pirky-ambulance-wl/
         - name: ambulance
           value: bobulova
   preload: false
