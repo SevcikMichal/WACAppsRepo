@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:  zhan-chalas-questions-system-deployment      # meno deployment-u od ktorého sa odvádza meno podu
+  name: t13-ambulance-t13-deployment      # meno deployment-u od ktorého sa odvádza meno podu
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
-        pod: zhan-chalas-questions-system-label    # tento riadok je len označenie štítku 
+        pod: t13-ambulance-t13-label    # tento riadok je len označenie štítku 
                                     # key-value pair pod=ambualnce ufe
                                     # určený pre výber podov s rovnakým štítkom
   template:                    # šablóna pre vytvorenie replík podov
     metadata:
       labels: 
-        pod: zhan-chalas-questions-system-label    # štítky podu
+        pod: t13-ambulance-t13-label    # štítky podu
     spec:
       containers:
-      - name: zhan-chalas-questions-system-container # meno kontaineru - v pod-e ich môže byť viac
-        image: filipchalas/questions-system:1.0.0-19
+      - name: t13-ambulance-t13-container # meno kontaineru - v pod-e ich môže byť viac
+        image: laderit/ambulance-t13
         imagePullPolicy: Always
         ports:
         - name: http
