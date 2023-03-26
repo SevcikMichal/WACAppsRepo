@@ -16,6 +16,7 @@ resources:
   - ../../hhh-team
   - ../../hoka-ambulance
   - ../../ij-ambulance
+  - ../../ij-jj-hospital-warehouse
   - ../../janec-ambulance
   - ../../jb_ambulance
   - ../../jj-ambulance
@@ -46,6 +47,5 @@ resources:
   - ../../xholubov_ambulance
   - ../../xvykopal-ambulance
   - ../../zy-ambulance
-  - ../../ij-jj-hospital-warehouse
 
 namespace: wac-hospital
