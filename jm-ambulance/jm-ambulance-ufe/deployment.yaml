@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: bado-ambulance-ufe-deployment      # meno deployment-u od ktorého sa odvádza meno podu
+  name: jm-ambulance-ufe-deployment      # meno deployment-u od ktorého sa odvádza meno podu
 spec:
   replicas: 1
   selector:
     matchLabels:
-        pod: bado-ambulance-ufe-label    # tento riadok je len označenie štítku 
+        pod: jm-ambulance-ufe-label    # tento riadok je len označenie štítku 
                                     # key-value pair pod=ambualnce ufe
                                     # určený pre výber podov s rovnakým štítkom
   template:                    # šablóna pre vytvorenie replík podov
     metadata:
       labels: 
-        pod: bado-ambulance-ufe-label    # štítky podu
+        pod: jm-ambulance-ufe-label    # štítky podu
     spec:
       containers:
-      - name: bado-ambulance-ufe-container # meno kontaineru - v pod-e ich môže byť viac
-        image: jasmine1612/ambulance-ufe
+      - name: jm-ambulance-ufe-container # meno kontaineru - v pod-e ich môže byť viac
+        image: xmuller/ambulance-ufe
         imagePullPolicy: Always
         ports:
         - name: http
