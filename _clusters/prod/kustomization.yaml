@@ -51,11 +51,12 @@ resources:
   - ../../stesch-ambulance
   - ../../team09-form-app
   - ../../t13-ambulance
+  - ../../tech-podolae-ambulance
   - ../../tl-team
   - ../../vf_ambulance
   - ../../xglemba-project
   - ../../xholubov_ambulance
   - ../../xvykopal-ambulance
   - ../../zy-ambulance
-  
+
 namespace: wac-hospital
