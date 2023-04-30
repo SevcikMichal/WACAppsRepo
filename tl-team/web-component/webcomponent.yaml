@@ -1,0 +1,18 @@
+apiVersion: fe.milung.eu/v1
+kind: WebComponent
+metadata: 
+  name: tl-team-ufe
+
+spec:   
+  module-uri: http://tl-team-ufe.wac-hospital/build/equipment.esm.js
+  navigation:
+    - element: tl-equipment-app
+      path: tl-equipment
+      title: Tl-team Správa vybavenia
+      details: Spravovanie vybavenia v ambulancii
+      attributes:
+        - name: base-path
+          value: /ui/tl-team/
+  preload: false
+  proxy: true
+  hash-suffix: v1alpha1
