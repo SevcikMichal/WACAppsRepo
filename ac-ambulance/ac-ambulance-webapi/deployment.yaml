@@ -14,7 +14,7 @@ spec:
       spec:
         containers:
         - name: ac-ambulance-webapi-container
-          image: jokkke/ambulance-webapi:1.0.0-19
+          image: jokkke/ambulance-webapi:1.0.0-21
           imagePullPolicy: Always
           ports:
           - name: webapi-port
