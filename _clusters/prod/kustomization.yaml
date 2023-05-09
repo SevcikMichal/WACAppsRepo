@@ -3,29 +3,71 @@ kind: Kustomization
 
 resources:
   - ../../_msevcik_demo
-  - ../../fa-ambulance
-#  - ../../pablo_ambulance
-  - ../../mf-ambulance
-  - ../../peter-plevko
-  - ../../md_ambulance
-  - ../../mar-ku-ambulance
-  - ../../jm-lm-ambulance
-  - ../../xholubov_ambulance
-  - ../../jb_ambulance
-  - ../../hoka-ambulance
-  - ../../adp-team
-  - ../../jj-ambulance
-  - ../../m-nem-ambulance
-#  - ../../janec-ambulance
-  - ../../ij-ambulance
-  - ../../pirky
-#  - ../../ll-ambulance
-  - ../../stesch-ambulance
   - ../../ab-ambulance
+  - ../../anbe-ambulance
+  - ../../ac-ambulance
+  - ../../adp-team
+  - ../../af-mb-team
+  - ../../af-ambulance
+  - ../../bado-ambulance
+  - ../../bamat-ambulance
+  - ../../bbm-team
+  - ../../db_ambulance
+  - ../../dk-ambulance
+  - ../../fa-ambulance
+  - ../../fa-projekt
+  - ../../fchalas-ambulance
+  - ../../fp-sz-team
+  - ../../hhh-team
+  - ../../hianikova-ambulance
+  - ../../hoka-ambulance
+  - ../../hord-team
+  - ../../hud-nem-team
+  - ../../ij-ambulance
+  - ../../ij-jj-hospital-warehouse
+  - ../../janec-ambulance
+  - ../../jb_ambulance
+  - ../../jj-ambulance
+  - ../../jk-team
+  - ../../jm-ambulance
+  - ../../jm-lm-ambulance
+  - ../../jv-team
+  - ../../kali-team
+  - ../../kk-ambulance
+  - ../../ll-ambulance
+  - ../../m-nem-ambulance
+  - ../../mar-ku-ambulance
+  - ../../mb-ambulance
+  - ../../md_ambulance
+  - ../../mdurovic-ambulance
+  - ../../mf-ambulance
+  - ../../mf-project
+  - ../../mimast-team
   - ../../mjankuliak-ambulance
   - ../../mkrchnavy-ambulance
   - ../../mkukucka-ambulance
-  - ../../pkollarova-ambulance
+  - ../../mkukucka-covid19-testing-administration
+  - ../../pablo-ambulance
   - ../../pc-ambulance
+  - ../../pm-ambulance
+  - ../../xkollarovap-project
+  - ../../peter-plevko
+
+  - ../../pirky
+  - ../../pkollarova-ambulance
+  - ../../pprerko-team
+  - ../../rericha_ambulance
+  - ../../stesch-ambulance
+  - ../../team09-form-app
+  - ../../t13-ambulance
+  - ../../tech-podolae-ambulance
+  - ../../tl-team
+  - ../../vf_ambulance
+  - ../../xglemba-project
+  - ../../xholubov_ambulance
+  - ../../xvykopal-ambulance
+  - ../../zy-ambulance
+  - ../../xbartosj-ambulance
+  - ../../xmuller-project
 
 namespace: wac-hospital
