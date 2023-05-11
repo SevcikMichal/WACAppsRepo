@@ -5,4 +5,4 @@ resources:
   - service.yaml
   - ingress.yaml
 commonLabels:
-  app: adp-pharmas-webapi
+  app: ts-ambulance-webapi
