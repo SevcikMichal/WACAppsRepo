@@ -6,15 +6,15 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-        pod: tl-team-ufe-deployment
+        pod: tl-team-ufe-label
   template:
     metadata:
       labels: 
-        pod: tl-team-ufe-deployment
+        pod: tl-team-ufe-label
     spec:
       containers:
       - name: tl-team-ufe-container
-        image: timolabsky/ambulance-ufe:0.0.1-26
+        image: timolabsky/wac-equipment-fe:0.0.1-31
         imagePullPolicy: Always
         ports:
         - name: http
