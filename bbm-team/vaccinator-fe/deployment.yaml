@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vaccinator-fe-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      pod: vaccinator-fe-label
+  template:
+    metadata:
+      labels:
+        pod: vaccinator-fe-label
+    spec:
+      containers:
+        - name: vaccinator-fe-ufe-container
+          image: wacteambbm/wac-project-fe:1.0.1
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 80
+          resources:
+            requests:
+              memory: "32M"
+              cpu: "0.1"
+            limits:
+              memory: "320M"
+              cpu: "0.3"
