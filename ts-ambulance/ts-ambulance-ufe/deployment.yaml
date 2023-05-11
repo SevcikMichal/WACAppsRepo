@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mdurovic-ambulance-ufe-deployment
+  name: ts-ambulance-ufe-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      pod: mdurovic-ambulance-ufe-label
+      pod: ts-ambulance-ufe-label
   template:
     metadata:
       labels:
-        pod: mdurovic-ambulance-ufe-label
+        pod: ts-ambulance-ufe-label
     spec:
       containers:
-        - name: mdurovic-ambulance-ufe-container
-          image: michaldurovic/ambulance-ufe:1.0.0-33
+        - name: ts-ambulance-ufe-container
+          image: troloyolo/ambulance-ufe:1.0.0-54
           imagePullPolicy: Always
           ports:
             - name: http
