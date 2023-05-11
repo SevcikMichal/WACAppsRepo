@@ -14,7 +14,9 @@ spec:
       details: HHH app details
       attributes:
         - name: base-path
-          value: hhh-pharmas-api
+          value: /ui/hhh-pharmas/
+        - name: api-uri
+          value: /hhh-pharmas-api
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
   # musí byť táto hodnota nastavená na true
