@@ -1,11 +1,11 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: msevcik-ambulance-webapi
+  name: ts-ambulance-webapi
 spec:
   type: ClusterIP
   selector:
-    pod: msevcik-ambulance-webapi-label
+    pod: ts-ambulance-webapi-label
   ports:
     - name: webapi-s-port
       protocol: TCP
