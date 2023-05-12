@@ -5,4 +5,4 @@ resources:
 - service.yaml
 - ingress.yaml
 commonLabels:
-  app: kali-ambulance-webapi
+  app: ij-jj-hospital-warehouse-webapi
