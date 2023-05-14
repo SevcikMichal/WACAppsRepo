@@ -12,6 +12,7 @@ spec:
       labels: 
         pod: msevcik-ambulance-ufe-label
     spec:
+      containers:
       - name: msevcik-ambulance-ufe-container
         image: msevcik/ambulance-ufe-demo:1.0.0-41
         imagePullPolicy: Always
