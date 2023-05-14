@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ij-jj-hospital-warehouse-webapi
+  name: hord-orders-webapi
 spec:
-  replicas: 2
+  replicas: 1
   selector:
       matchLabels:
-        pod: ij-jj-hospital-warehouse-webapi-label
+        pod: hord-orders-webapi-label
   template:
       metadata:
         labels:
-          pod: ij-jj-hospital-warehouse-webapi-label
+          pod: hord-orders-webapi-label
       spec:
         containers:
-        - name: ij-jj-hospital-warehouse-webapi-container
-          image: ivanjatz/hospital-warehouse-webapi:1.0.0-57
+        - name: hord-orders-webapi-container
+          image: mholym/orders-webapi:1.0.0-30
           imagePullPolicy: Always
           ports:
           - name: webapi-port

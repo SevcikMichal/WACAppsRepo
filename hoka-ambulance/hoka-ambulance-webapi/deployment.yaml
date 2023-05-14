@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ij-jj-hospital-warehouse-webapi
+  name: hoka-ambulance-webapi
 spec:
   replicas: 2
   selector:
       matchLabels:
-        pod: ij-jj-hospital-warehouse-webapi-label
+        pod: hoka-ambulance-webapi-label
   template:
       metadata:
         labels:
-          pod: ij-jj-hospital-warehouse-webapi-label
+          pod: hoka-ambulance-webapi-label
       spec:
         containers:
-        - name: ij-jj-hospital-warehouse-webapi-container
-          image: ivanjatz/hospital-warehouse-webapi:1.0.0-57
+        - name: hoka-ambulance-webapi-container
+          image: mholym/ambulance-webapi:1.0.0-17
           imagePullPolicy: Always
           ports:
           - name: webapi-port
