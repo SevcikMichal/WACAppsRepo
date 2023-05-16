@@ -13,6 +13,7 @@ resources:
   - ../../bamat-ambulance
   - ../../bbm-team
   - ../../db_ambulance
+  - ../../dk-ambulance
   - ../../fa-ambulance
   - ../../fa-projekt
   - ../../fchalas-ambulance
@@ -26,8 +27,9 @@ resources:
   - ../../ij-jj-hospital-warehouse
   - ../../janec-ambulance
   - ../../jb_ambulance
-  - ../../jbl-project
   - ../../jj-ambulance
+  - ../../jk-team
+  - ../../jm-ambulance
   - ../../jm-lm-ambulance
   - ../../jv-team
   - ../../kali-team
@@ -66,4 +68,6 @@ resources:
   - ../../xvykopal-ambulance
   - ../../zy-ambulance
 
+  - ../../xbartosj-ambulance
+  - ../../xmuller-project
 namespace: wac-hospital
