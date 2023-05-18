@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hhh-pharmas-webapi
+  name: hospital-equipment-webapi
 spec:
   replicas: 1
   selector:
     matchLabels:
-      pod: hhh-pharmas-webapi-label
+      pod: hospital-equipment-webapi-label
   template:
     metadata:
       labels:
-        pod: hhh-pharmas-webapi-label
+        pod: hospital-equipment-webapi-label
     spec:
       containers:
-        - name: hhh-pharmas-webapi-container
-          image: holubov/hhh-pharmas-webapi:1.0.0-55
+        - name: hospital-equipment-webapi-container
+          image: martinabillich/webapi-hospital-equipment:1.0.0-105
           imagePullPolicy: Always
           ports:
             - name: webapi-port

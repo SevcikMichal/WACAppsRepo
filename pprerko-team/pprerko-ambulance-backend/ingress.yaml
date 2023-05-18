@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: ij-jj-hospital-warehouse-webapi
+  name: pprerko-ambulance-backend
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /api/$2
     nginx.ingress.kubernetes.io/use-regex: "true"
@@ -10,10 +10,10 @@ spec:
   rules:
     - http:
         paths:
-          - path: /ij-jj-hospital-warehouse-webapi/api(/|$)(.*)
+          - path: /pprerko-ambulance-backend(/|$)(.*)
             pathType: Prefix
             backend:
               service:
-                name: ij-jj-hospital-warehouse-webapi
+                name: pprerko-ambulance-backend
                 port:
                   name: webapi-s-port
