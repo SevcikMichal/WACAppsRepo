@@ -7,8 +7,8 @@ spec:
   navigation:
     - element: covid19-testing-administration-app
       path: covid19-testing-administration
-      title:  Správa testovania na ochorenie COVID-19 - Mkukucka
-      details:  Správa testovania na ochorenie COVID-19.
+      title:  Sprava testovania na ochorenie COVID-19 - Mkukucka
+      details:  Sprava testovania na ochorenie COVID-19.
       attributes:
         - name: base-path
           value: /ui/covid19-testing-administration/
