@@ -4,3 +4,4 @@ resources:
   - ./mkukucka-ambulance-ufe
 commonLabels:
   app: mkukucka-ambulance
+  
