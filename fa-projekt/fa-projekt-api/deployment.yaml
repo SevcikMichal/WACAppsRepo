@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: vaccinator-be
+  name: fa-projekt-api-webapi
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
-      pod: vaccinator-be-label
+      pod: fa-projekt-api-label
   template:
     metadata:
       labels:
-        pod: vaccinator-be-label
+        pod: fa-projekt-api-label
     spec:
       containers:
-        - name: vaccinator-be-container
-          image: wacteambbm/wac-project-be:1.0.99
+        - name: fa-projekt-api-container
+          image: pumec/fa-wac-be:1.0.0-53
           imagePullPolicy: Always
           ports:
             - name: webapi-port
