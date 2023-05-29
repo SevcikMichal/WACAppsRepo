@@ -4,26 +4,32 @@ kind: Kustomization
 resources:
   - ../../_msevcik_demo
   - ../../ab-ambulance
+  - ../../anbe-ambulance
   - ../../ac-ambulance
   - ../../adp-team
+  - ../../af-mb-team
   - ../../af-ambulance
   - ../../bado-ambulance
   - ../../bamat-ambulance
   - ../../bbm-team
   - ../../db_ambulance
+  - ../../dk-ambulance
   - ../../fa-ambulance
   - ../../fa-projekt
   - ../../fchalas-ambulance
   - ../../fp-sz-team
   - ../../hhh-team
+  - ../../hianikova-ambulance
   - ../../hoka-ambulance
+  - ../../hord-team
   - ../../hud-nem-team
   - ../../ij-ambulance
   - ../../ij-jj-hospital-warehouse
   - ../../janec-ambulance
   - ../../jb_ambulance
-  - ../../jbl-project
   - ../../jj-ambulance
+  - ../../jk-team
+  - ../../jm-ambulance
   - ../../jm-lm-ambulance
   - ../../jv-team
   - ../../kali-team
@@ -35,6 +41,7 @@ resources:
   - ../../md_ambulance
   - ../../mdurovic-ambulance
   - ../../mf-ambulance
+  - ../../mf-project
   - ../../mimast-team
   - ../../mjankuliak-ambulance
   - ../../mkrchnavy-ambulance
@@ -52,11 +59,13 @@ resources:
   - ../../stesch-ambulance
   - ../../team09-form-app
   - ../../t13-ambulance
+  - ../../tech-podolae-ambulance
   - ../../tl-team
   - ../../vf_ambulance
   - ../../xglemba-project
   - ../../xholubov_ambulance
   - ../../xvykopal-ambulance
   - ../../zy-ambulance
-  
+  - ../../xbartosj-ambulance
+  - ../../xmuller-project
 namespace: wac-hospital

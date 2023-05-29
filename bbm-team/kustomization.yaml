@@ -3,7 +3,8 @@ kind: Kustomization
 
 resources:                  # zoznam manifestov - zdrojov,
   # ktoré sú súčasťou tejto aplikácie
-  - ./bbm-project
+  - ./vaccinator-fe
+  - ./vaccinator-be
 
 commonLabels:               # značky priradené všetkým zdrojom tejto aplikácie
-  app: bbm-project
+  app: vaccinator-fe
