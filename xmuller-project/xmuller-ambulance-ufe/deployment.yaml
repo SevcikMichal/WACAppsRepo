@@ -17,6 +17,7 @@ spec:
       containers:
       - name: xmuller-ambulance-ufe-container # meno kontaineru - v pod-e ich môže byť viac
         image: xmuller/wac-project-ufe
+        image: xmuller/wac-project-ufe:1.0.0-46
         imagePullPolicy: Always
         ports:
         - name: http
