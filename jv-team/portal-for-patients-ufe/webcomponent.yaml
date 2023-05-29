@@ -7,13 +7,16 @@ spec:
                      # module web komponentu pre tento mikroFE 
                      # - umiestnený v namespace wac-hospital
   navigation:
-    - element: my-component
+    - element: routing-component
       path: portal-for-patients
       title: Bestest Portal for Patients
       details: Portal, v ktorom mozu pacienti vidiet svoje zaznamy od lekara
       attributes:                   
         - name: base-path
           value: /ui/portal-for-patients/
+        attributes:                   
+        - name: api-uri
+          value: /portal-for-patients-api
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti 
                                     # musí byť táto hodnota nastavená na true 
