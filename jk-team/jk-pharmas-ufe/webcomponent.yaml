@@ -1,0 +1,19 @@
+apiVersion: fe.milung.eu/v1
+kind: WebComponent
+metadata: 
+  name: jk-physres-ufe
+spec:   
+  module-uri: http://jk-physres-ufe.wac-hospital/build/phys-reservations.esm.js  
+  navigation:
+    - element: main-app 
+      path: jk-physres-term 
+      title: JK-PHYSRES  
+      details: Works with reservations. Created by Martin Jankuliak and David Korman.
+      attributes:                   
+        - name: base-path
+          value: /ui/jk-physres-term
+        - name: api-uri
+          value: /jk-physres-api
+  preload: true                    
+  proxy: true                       
+  hash-suffix: v1alpha1      
