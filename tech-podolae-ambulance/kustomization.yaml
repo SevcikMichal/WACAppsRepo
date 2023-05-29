@@ -1,7 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
+  - ./ambulance-webapi-tech-podolae
   - ./tech-podolae-ambulance-ufe
-# - ./tech-podolae-ambulance-webapi
 commonLabels:
-  app: tech-podolae-ambulance-ufe
+  app: tech-podolae-ambulance
