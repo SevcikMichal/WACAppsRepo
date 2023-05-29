@@ -14,7 +14,9 @@ spec:
       details: Správa lekárskej dokumentácie v rámci jednotlivých ambulancií
       attributes:                   
         - name: base-path
-          value: /ui/medical-docs-wl/
+          value: /ui/medical-docs-wl/                
+        - name: api-uri
+          value: /medical-docs-api
         - name: ambulance
           value: bobulova
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
