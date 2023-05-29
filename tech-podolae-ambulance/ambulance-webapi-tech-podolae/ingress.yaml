@@ -10,7 +10,7 @@ spec:
   rules:
     - http:
         paths:
-          - path: /xkollarovap-doctor-schedule-list-api(/|$)(.*)
+          - path: /tech-podolae-ambulance-operations-api(/|$)(.*)
             pathType: Prefix
             backend:
               service:
