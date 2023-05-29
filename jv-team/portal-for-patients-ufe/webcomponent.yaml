@@ -14,7 +14,6 @@ spec:
       attributes:                   
         - name: base-path
           value: /ui/portal-for-patients/
-        attributes:                   
         - name: api-uri
           value: /portal-for-patients-api
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
