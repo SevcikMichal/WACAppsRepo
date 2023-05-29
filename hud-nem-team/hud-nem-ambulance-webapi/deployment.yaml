@@ -14,7 +14,7 @@
        spec:
          containers:
          - name: hud-nem-erl-webapi-container
-           image: xhudanova/hud-nem-erl-webapi:latest
+           image: xhudanova/hud-nem-erl-webapi:1.0.0-63
            imagePullPolicy: Always
            ports:
            - name: webapi-port
