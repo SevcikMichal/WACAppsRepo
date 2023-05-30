@@ -3,7 +3,7 @@ kind: WebComponent
 metadata: 
   name: kk-ambulance-ufe
 spec:   
-  module-uri: http://kk-bed-management-ufe.wac-hospital/build/kk-bed-management-ufe.esm.js  
+  module-uri: http://kk-bed-management-ufe.wac-hospital/build/kk-bed-management-ufe.esm.js
   navigation:
     - element: kk-app
       path: kk-beds
