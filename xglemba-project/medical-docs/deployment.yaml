@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name:  medical-docs-container # meno kontaineru - v pod-e ich môže byť viac
-        image: bamat31/medical-docs
+        image: bamat31/medical-docs:1.0.0-59
         imagePullPolicy: Always
         ports:
         - name: http
