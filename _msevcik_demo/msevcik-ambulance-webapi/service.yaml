@@ -7,7 +7,7 @@ spec:
   selector:
     pod: msevcik-ambulance-webapi-label
   ports:
-    - name: webapi-s-port
-      protocol: TCP
-      port: 80
-      targetPort: 8080
+  - name: webapi-s-port
+    protocol: TCP
+    port: 80
+    targetPort: 8080
