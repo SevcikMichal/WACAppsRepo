@@ -11,11 +11,9 @@ spec:
       details: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
       attributes:
         - name: api-uri
-          value: /kk-waiting-list-api
-        - name: ambulance
-          value: bobulova
+          value: /departments
         - name: base-path
-          value: /ui/kk-ambulance-wl #a co ja viem
+          value: /ui/departments
   preload: false
   proxy: true
   hash-suffix: v1alpha1

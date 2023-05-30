@@ -14,7 +14,7 @@
        spec:
          containers:
          - name: kk-ambulance-webapi-container
-           image: kuchto/ambulance-webapi:1.0.0-23
+           image: kkuznecov/bed-managemenet-webapi:1.0.0-46
            imagePullPolicy: Always
            ports:
            - name: webapi-port
