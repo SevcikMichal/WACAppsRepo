@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: ts-aids-ufe-deployment
+
 spec:
   replicas: 1
   selector:
@@ -14,7 +15,8 @@ spec:
     spec:
       containers:
         - name: ts-aids-ufe-container
-          image: troloyolo/aids-ufe:1.0.0-88
+          image: troloyolo/aids-ufe:1.0.0-95
+
           imagePullPolicy: Always
           ports:
             - name: http

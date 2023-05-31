@@ -10,7 +10,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /kk-waiting-list-api(/|$)(.*)
+      - path: /departments-webapi(/|$)(.*)
         pathType: Prefix
         backend:
           service:

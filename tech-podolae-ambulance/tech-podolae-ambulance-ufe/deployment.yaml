@@ -1,25 +1,30 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tech-podolae-ambulance-ufe-deployment
+  name: tech-podolae-ambulance-operations-ufe-deployment # meno deployment-u od ktorého sa odvádza meno podu
 spec:
   replicas: 1
   selector:
     matchLabels:
-      pod: tech-podolae-ambulance-ufe-label
-  template:
+      pod:
+        tech-podolae-ambulance-operations-ufe-label # tento riadok je len označenie štítku
+        # key-value pair pod=ambualnce ufe
+        # určený pre výber podov s rovnakým štítkom
+  template: # šablóna pre vytvorenie replík podov
     metadata:
       labels:
-        pod: tech-podolae-ambulance-ufe-label
+        pod: tech-podolae-ambulance-operations-ufe-label # štítky podu
     spec:
       containers:
-        - name: tech-podolae-ambulance-ufe-container
-          image: silentstorm1406/ambulance-ufe
+        - name: tech-podolae-ambulance-operations-container # meno kontaineru - v pod-e ich môže byť viac
+          image: silentstorm1406/ambulance-operations-tech-podolae:1.0.0-44
           imagePullPolicy: Always
           ports:
             - name: http
               containerPort: 80
-          resources:
+          resources: # určenie kvót pre využívané fyzické prostriedky
+            # je dôležité pre riadenie záťaže v rámci kubernetes
+            # klastra
             requests:
               memory: "32M"
               cpu: "0.1"
