@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ts-ambulance-webapi
+  name: ts-aids-webapi
 spec:
   replicas: 1
   selector:
     matchLabels:
-      pod: ts-ambulance-webapi-label
+      pod: ts-aids-webapi-label
   template:
     metadata:
       labels:
         pod: ts-ambulance-webapi-label
     spec:
       containers:
-        - name: ts-ambulance-webapi-container
-          image: troloyolo/ambulance-webapi:1.0.0-54
+        - name: ts-aids-webapi-container
+          image: troloyolo/aids-webapi:1.0.0-94
           imagePullPolicy: Always
           ports:
             - name: webapi-port

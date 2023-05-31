@@ -1,20 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ts-ambulance-ufe-deployment
+  name: ts-aids-ufe-deployment
+
 spec:
   replicas: 1
   selector:
     matchLabels:
-      pod: ts-ambulance-ufe-label
+      pod: ts-aids-ufe-label
   template:
     metadata:
       labels:
-        pod: ts-ambulance-ufe-label
+        pod: ts-aids-ufe-label
     spec:
       containers:
-        - name: ts-ambulance-ufe-container
-          image: troloyolo/ambulance-ufe:1.0.0-54
+        - name: ts-aids-ufe-container
+          image: troloyolo/aids-ufe:1.0.0-95
+
           imagePullPolicy: Always
           ports:
             - name: http
