@@ -11,9 +11,11 @@ spec:
       details: Spravuje obsadenost nemocnice     
       attributes:                   
         - name: base-path
-          value: /ui/xmuller-occupancy/
-        - name: ambulance
-          value: bobulova
+          value: /xmuller-project/
+        - name: api-uri
+          value: /xmuller-waiting-list-api
+        - name: hospital
+          value: nemocnica-ruzinov
   preload: false                    
   proxy: true                                           
-  hash-suffix: v1alpha2 
+  hash-suffix: v1alpha2                        
